@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Struts2Diagram version="2.0">
+  <package name="user" location="27,30" size="1160,910">
+    <action name="test" location="16,24" size="150,40" />
+    <action name="login" location="261,24" size="150,40" />
+    <action name="register" location="506,24" size="150,40" />
+    <action name="checkRegister" location="751,24" size="150,40" />
+    <action name="commitNeed" location="996,24" size="150,40" />
+    <action name="refreshNeed" location="16,164" size="150,40" />
+    <action name="getMoreNeed" location="261,164" size="150,40" />
+    <action name="showNeedDetail" location="506,164" size="150,40" />
+    <action name="commentNeed" location="751,164" size="150,40" />
+    <action name="reportNeed" location="996,164" size="150,40" />
+    <action name="thank" location="16,304" size="150,40" />
+    <action name="refreshLoveRank" location="261,304" size="150,40" />
+    <action name="refreshPopularityRank" location="506,304" size="150,40" />
+    <action name="refreshNearUser" location="751,304" size="150,40" />
+    <action name="getMoreNearUser" location="996,304" size="150,40" />
+    <action name="showUserDetailInfo" location="16,444" size="150,40" />
+    <action name="givePopularity" location="261,444" size="150,40" />
+    <action name="searchUser" location="506,444" size="150,40" />
+    <action name="updatePassword" location="751,444" size="150,40" />
+    <action name="updateNickName" location="996,444" size="150,40" />
+    <action name="updateRealName" location="16,584" size="150,40" />
+    <action name="updateSignature" location="261,584" size="150,40" />
+    <action name="updateSchool" location="506,584" size="150,40" />
+    <action name="updateAcademy" location="751,584" size="150,40" />
+    <action name="updateGrade" location="996,584" size="150,40" />
+    <action name="checkNotification" location="16,724" size="150,40" />
+    <action name="updateUserLocation" location="261,724" size="150,40" />
+    <action name="refreshPourlisten" location="506,724" size="150,40" />
+    <action name="getMorePourlisten" location="751,724" size="150,40" />
+    <action name="showPourlistenDetail" location="996,724" size="150,40" />
+    <action name="commitPourlisten" location="16,864" size="150,40" />
+    <action name="commentPourlisten" location="261,864" size="150,40" />
+    <action name="getUserInfoFromUserId" location="506,864" size="150,40" />
+    <action name="retrievePassword" location="751,864" size="150,40" />
+    <action name="uploadImg" location="996,864" size="150,40" />
+    <action name="getAllNeeds" location="11,361" size="150,40" />
+  </package>
+</Struts2Diagram>
+

@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+
+	<!-- 所有的action都应该放在对应的package下 -->
+	<package name="user" extends="struts-default">
+
+		<!-- 测试 -->
+		<action name="test" class="com.eethan.ineedu.action.Action"
+			method="test">
+		</action>
+
+		<!-- 用户登录 -->
+		<action name="login" class="com.eethan.ineedu.action.Action"
+			method="login">
+		</action>
+		
+		<!-- 用户登录 -->
+		<action name="getProCityCoSchool" class="com.eethan.ineedu.action.Action"
+			method="getProCityCoSchool">
+		</action>
+		
+		<!-- 用户登录 -->
+		<action name="qqLogin" class="com.eethan.ineedu.action.Action"
+			method="qqLogin">
+		</action>
+
+		<!-- 用户注册 -->
+		<action name="register" class="com.eethan.ineedu.action.Action"
+			method="register">
+		</action>
+
+		<!-- 用户注册时检查账号是否已存在 -->
+		<action name="checkRegister" class="com.eethan.ineedu.action.Action"
+			method="checkRegister">
+		</action>
+
+		<!-- 发布需求 -->
+		<action name="commitNeed" class="com.eethan.ineedu.action.Action"
+			method="commitNeed">
+		</action>
+
+		<!-- 刷新附近需求 -->
+		<action name="refreshNeed" class="com.eethan.ineedu.action.Action"
+			method="refreshNeed">
+		</action>
+
+		<!-- 获取所有'我'的需求 -->
+		<action name="getAllNeeds" class="com.eethan.ineedu.action.Action"
+			method="getAllNeeds">
+		</action>
+
+		<!-- 加载更多所有'我'的需求 -->
+		<action name="getMoreAllNeeds" class="com.eethan.ineedu.action.Action"
+			method="getMoreAllNeeds">
+		</action>
+
+		<!-- 加载更多附近需求 -->
+		<action name="getMoreNeed" class="com.eethan.ineedu.action.Action"
+			method="getMoreNeed">
+		</action>
+
+		<!-- 查看需求的详细信息 -->
+		<action name="showNeedDetail" class="com.eethan.ineedu.action.Action"
+			method="showNeedDetail">
+		</action>
+
+		<!-- 评论需求 -->
+		<action name="commentNeed" class="com.eethan.ineedu.action.Action"
+			method="commentNeed">
+		</action>
+
+		<!-- 举报需求 -->
+		<action name="reportNeed" class="com.eethan.ineedu.action.Action"
+			method="reportNeed">
+		</action>
+
+		<!-- 选择感谢对象 -->
+		<action name="thank" class="com.eethan.ineedu.action.Action"
+			method="thank">
+		</action>
+
+		<!-- 刷新爱心排名 -->
+		<action name="refreshLoveRank" class="com.eethan.ineedu.action.Action"
+			method="refreshLoveRank">
+		</action>
+
+		<!-- 刷新人气排名 -->
+		<action name="refreshPopularityRank" class="com.eethan.ineedu.action.Action"
+			method="refreshPopularityRank">
+		</action>
+
+
+		<!-- 刷新附近的人 -->
+		<action name="refreshNearUser" class="com.eethan.ineedu.action.Action"
+			method="refreshNearUser">
+		</action>
+
+		<!-- 加载更多附近的人 -->
+		<action name="getMoreNearUser" class="com.eethan.ineedu.action.Action"
+			method="getMoreNearUser">
+		</action>
+
+		<!-- 查看用户详细资料 -->
+		<action name="showUserDetailInfo" class="com.eethan.ineedu.action.Action"
+			method="showUserDetailInfo">
+		</action>
+		
+			<!-- 查看用户详细资料 -->
+		<action name="showUserDetailInfoNew" class="com.eethan.ineedu.action.Action"
+			method="showUserDetailInfoNew">
+		</action>
+
+		<!-- 送人气 -->
+		<action name="givePopularity" class="com.eethan.ineedu.action.Action"
+			method="givePopularity">
+		</action>
+
+
+		<!-- 查找用户 -->
+		<action name="searchUser" class="com.eethan.ineedu.action.Action"
+			method="searchUser">
+		</action>
+		
+			<!-- 查找用户 -->
+		<action name="searchUserNew" class="com.eethan.ineedu.action.Action"
+			method="searchUserNew">
+		</action>
+
+		<!-- 修改密码 -->
+		<action name="updatePassword" class="com.eethan.ineedu.action.Action"
+			method="updatePassword">
+		</action>
+
+		<!-- 修改昵称 -->
+		<action name="updateNickName" class="com.eethan.ineedu.action.Action"
+			method="updateNickName">
+		</action>
+		
+		<!-- 修改昵称 -->
+		<action name="updateAllUserInfo" class="com.eethan.ineedu.action.Action"
+			method="updateAllUserInfo">
+		</action>
+
+		<!-- 修改真实姓名 -->
+		<action name="updateRealName" class="com.eethan.ineedu.action.Action"
+			method="updateRealName">
+		</action>
+
+		<!-- 修改个性签名 -->
+		<action name="updateSignature" class="com.eethan.ineedu.action.Action"
+			method="updateSignature">
+		</action>
+
+		<!-- 修改学校 -->
+		<action name="updateSchool" class="com.eethan.ineedu.action.Action"
+			method="updateSchool">
+		</action>
+
+		<!-- 修改学院 -->
+		<action name="updateAcademy" class="com.eethan.ineedu.action.Action"
+			method="updateAcademy">
+		</action>
+
+		<!-- 修改年级 -->
+		<action name="updateGrade" class="com.eethan.ineedu.action.Action"
+			method="updateGrade">
+		</action>
+
+		<action name="addChatContact" class="com.eethan.ineedu.action.Action"
+			method="addChatContact">
+		</action>
+
+		<!-- 检查有没有自己的通知 -->
+		<action name="checkNotification" class="com.eethan.ineedu.action.Action"
+			method="checkNotification">
+		</action>
+
+		<!-- 获取所有的通知 -->
+		<action name="getAllNotifications" class="com.eethan.ineedu.action.Action"
+			method="getAllNotifications">
+		</action>
+
+		<!-- 获取更多的所有通知 -->
+		<action name="getMoreAllNotifications" class="com.eethan.ineedu.action.Action"
+			method="getMoreAllNotifications">
+		</action>
+
+		<!-- 更新自己的地理位置 -->
+		<action name="updateUserLocation" class="com.eethan.ineedu.action.Action"
+			method="updateUserLocation">
+		</action>
+
+		<!-- 刷新附近倾诉倾听 -->
+		<action name="refreshPourlisten" class="com.eethan.ineedu.action.Action"
+			method="refreshPourlisten">
+		</action>
+
+		<action name="updateLoveNum" class="com.eethan.ineedu.action.Action"
+			method="updateLoveNum">
+		</action>
+
+		<!-- 加载更多附近倾诉倾听 -->
+		<action name="getMorePourlisten" class="com.eethan.ineedu.action.Action"
+			method="getMorePourlisten">
+		</action>
+
+		<!-- 查看倾诉倾听的详细信息 -->
+		<action name="showPourlistenDetail" class="com.eethan.ineedu.action.Action"
+			method="showPourlistenDetail">
+		</action>
+
+		<!-- 发布倾诉倾听 -->
+		<action name="commitPourlisten" class="com.eethan.ineedu.action.Action"
+			method="commitPourlisten">
+		</action>
+
+		<!-- 倾诉倾听的评论 -->
+		<action name="commentPourlisten" class="com.eethan.ineedu.action.Action"
+			method="commentPourlisten">
+		</action>
+
+		<!-- 获取背景的URL -->
+		<action name="getBackground" class="com.eethan.ineedu.action.Action"
+			method="getBackground">
+		</action>
+
+		<!-- 通过userId得到UserInfo -->
+		<action name="getUserInfoFromUserId" class="com.eethan.ineedu.action.Action"
+			method="getUserInfoFromUserId">
+		</action>
+
+		<!-- 删除Need -->
+		<action name="deleteNeed" class="com.eethan.ineedu.action.Action"
+			method="deleteNeed">
+		</action>
+
+		<!-- 删除pourlisten -->
+		<action name="deletePourlisten" class="com.eethan.ineedu.action.Action"
+			method="deletePourlisten">
+		</action>
+
+		<!-- 添加我要拍 -->
+		<action name="commitPhotos" class="com.eethan.ineedu.action.Action"
+			method="commitPhotos">
+		</action>
+
+		<!-- 刷新我要拍 -->
+		<action name="refreshPhotos" class="com.eethan.ineedu.action.Action"
+			method="refreshPhotos">
+		</action>
+
+		<action name="refreshMood" class="com.eethan.ineedu.action.Action"
+			method="refreshMood">
+		</action>
+
+		<action name="getMoreMood" class="com.eethan.ineedu.action.Action"
+			method="getMoreMood">
+		</action>
+		
+		<action name="showMoodDetail" class="com.eethan.ineedu.action.Action"
+			method="showMoodDetail">
+		</action>
+		
+		<action name="commitMood" class="com.eethan.ineedu.action.Action"
+			method="commitMood">
+		</action>
+		
+		<action name="commitAlbum" class="com.eethan.ineedu.action.Action"
+			method="commitAlbum">
+		</action>
+
+		<action name="getMorePhotos" class="com.eethan.ineedu.action.Action"
+			method="getMorePhotos">
+		</action>
+
+		<!-- 转发我要拍 -->
+		<action name="transmitPhotos" class="com.eethan.ineedu.action.Action"
+			method="transmitPhotos">
+		</action>
+
+		<!-- 评论我要拍 -->
+		<action name="commentPhotos" class="com.eethan.ineedu.action.Action"
+			method="commentPhotos">
+		</action>
+
+		<action name="commentMood" class="com.eethan.ineedu.action.Action"
+			method="commentMood">
+		</action>
+
+		<action name="moodPraise" class="com.eethan.ineedu.action.Action"
+			method="moodPraise">
+		</action>
+
+		<!-- 添加我要玩 -->
+		<action name="commitPlays" class="com.eethan.ineedu.action.Action"
+			method="commitPlays">
+		</action>
+
+		<!-- 刷新我要玩 -->
+		<action name="refreshPlays" class="com.eethan.ineedu.action.Action"
+			method="refreshPlays">
+		</action>
+
+		<!-- GetMore我要玩 -->
+		<action name="getMorePlays" class="com.eethan.ineedu.action.Action"
+			method="getMorePlays">
+		</action>
+
+		<!-- 评论我要玩 -->
+		<action name="commentPlays" class="com.eethan.ineedu.action.Action"
+			method="commentPlays">
+		</action>
+
+		<!-- 报名 -->
+		<action name="participate" class="com.eethan.ineedu.action.Action"
+			method="participate">
+		</action>
+
+		<!-- 我要拍点赞 -->
+		<action name="photoPraise" class="com.eethan.ineedu.action.Action"
+			method="photoPraise">
+		</action>
+
+		<!-- 提交心愿墙 -->
+		<action name="commitWish" class="com.eethan.ineedu.action.Action"
+			method="commitWish">
+		</action>
+		<!-- 提交心愿墙 -->
+		<action name="getWishPickers" class="com.eethan.ineedu.action.Action"
+			method="getWishPickers">
+		</action>
+		
+		<!-- 提交心愿墙 -->
+		<action name="joinPickers" class="com.eethan.ineedu.action.Action"
+			method="joinPickers">
+		</action>
+
+		<!-- 评论心愿墙 -->
+		<action name="commentWish" class="com.eethan.ineedu.action.Action"
+			method="commentWish">
+		</action>
+
+		<!-- 刷新心愿墙 -->
+		<action name="refreshWish" class="com.eethan.ineedu.action.Action"
+			method="refreshWish">
+		</action>
+		
+		<!-- 刷新心愿墙 -->
+		<action name="refreshWishNew" class="com.eethan.ineedu.action.Action"
+			method="refreshWishNew">
+		</action>
+
+		<!-- getMore心愿墙 -->
+		<action name="getMoreWish" class="com.eethan.ineedu.action.Action"
+			method="getMoreWish">
+		</action>
+			<!-- getMore心愿墙 -->
+		<action name="getMoreWishNew" class="com.eethan.ineedu.action.Action"
+			method="getMoreWishNew">
+		</action>
+
+		<!-- 心愿采纳 -->
+		<action name="wishComeTrue" class="com.eethan.ineedu.action.Action"
+			method="wishComeTrue">
+		</action>
+
+		<!-- 心愿点赞 -->
+		<action name="wishFlower" class="com.eethan.ineedu.action.Action"
+			method="wishFlower">
+		</action>
+
+		<!-- 显示Photo详细信息 -->
+		<action name="showPhotoDetail" class="com.eethan.ineedu.action.Action"
+			method="showPhotoDetail">
+		</action>
+
+		<!-- 显示Play详细信息 -->
+		<action name="showPlayDetail" class="com.eethan.ineedu.action.Action"
+			method="showPlayDetail">
+		</action>
+
+		<!-- 显示Wish详细信息 -->
+		<action name="showWishDetail" class="com.eethan.ineedu.action.Action"
+			method="showWishDetail">
+		</action>
+
+		<!-- 加入起床困难户行列 -->
+		<action name="commitWakeUp" class="com.eethan.ineedu.action.Action"
+			method="commitWakeUp">
+		</action>
+
+		<!-- 起床 匹配 -->
+		<action name="matchWakeUp" class="com.eethan.ineedu.action.Action"
+			method="matchWakeUp">
+		</action>
+
+		<!-- 起床 解除关系 -->
+		<action name="removeWakeUp" class="com.eethan.ineedu.action.Action"
+			method="removeWakeUp">
+		</action>
+
+		<!-- 起床 进入时刷新信息 -->
+		<action name="showWakeUp" class="com.eethan.ineedu.action.Action"
+			method="showWakeUp">
+		</action>
+
+		<!-- 起床 确认建立关系 -->
+		<action name="chooseMatch" class="com.eethan.ineedu.action.Action"
+			method="chooseMatch">
+		</action>
+
+		<!-- 起床 确认建立关系 -->
+		<action name="confirmWakeUp" class="com.eethan.ineedu.action.Action"
+			method="confirmWakeUp">
+		</action>
+
+		<!-- 刷新联系人界面 -->
+		<action name="refreshContact" class="com.eethan.ineedu.action.Action"
+			method="refreshContact">
+		</action>
+
+		<!-- 刷新联系人界面 -->
+		<action name="getFlowerFans" class="com.eethan.ineedu.action.Action"
+			method="getFlowerFans">
+		</action>
+
+		<!-- 发表调戏 -->
+		<action name="commitMolest" class="com.eethan.ineedu.action.Action"
+			method="commitMolest">
+		</action>
+
+		<!-- 点击进入后的首次加载 -->
+		<action name="showMolest" class="com.eethan.ineedu.action.Action"
+			method="showMolest">
+		</action>
+
+		<!-- 上拉加载更多调戏 -->
+		<action name="getMoreMolest" class="com.eethan.ineedu.action.Action"
+			method="getMoreMolest">
+		</action>
+
+		<!-- 请求加入被调戏行列... -->
+		<action name="applyMolest" class="com.eethan.ineedu.action.Action"
+			method="applyMolest">
+		</action>
+
+		<!-- 找回密码 -->
+		<action name="retrievePassword" class="com.eethan.ineedu.action.RetrievePasswordAction"
+			method="retrievePassword">
+		</action>
+
+		<!-- 上传头像 -->
+		<action name="uploadImg" class="com.eethan.ineedu.action.UploadImgAction"
+			method="uploadImg">
+		</action>
+
+		<!-- 上传分享图片 此类图片需要提供网址访问，因而不使用端口 -->
+		<action name="uploadShareImg" class="com.eethan.ineedu.action.UploadImgAction"
+			method="uploadShareImg">
+		</action>
+
+		<!-- 上传我想拍 -->
+		<action name="uploadTakePhotos" class="com.eethan.ineedu.action.UploadImgAction"
+			method="uploadTakePhotos">
+		</action>
+		
+		<!-- 上传我想拍 -->
+		<action name="uploadAlbumPhoto" class="com.eethan.ineedu.action.UploadImgAction"
+			method="uploadAlbumPhoto">
+		</action>
+
+		<!-- 上传倾诉倾听用户自定义图片 -->
+		<action name="uploadCustomBackground" class="com.eethan.ineedu.action.UploadImgAction"
+			method="uploadCustomBackground">
+		</action>
+
+		<!-- 上传崩溃日志 -->
+		<action name="uploadCrashFile" class="com.eethan.ineedu.action.UploadCrashFileAction"
+			method="uploadCrashFile">
+		</action>
+
+
+	</package>
+</struts>
